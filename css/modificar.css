@@ -1,0 +1,71 @@
+.modificar {
+    width: 400px;
+    height: 950px;
+    background: #ddaae7;
+    margin: auto;
+    margin-top: 8%;
+    box-shadow: 7px 13px 37px #000000;
+    padding: 20px 30px;
+    border-top: 4px solid #ddaae7;  
+    color: #ffffff;
+    margin-bottom: 70px;
+    font-size: 20px;
+}
+  
+.modificar h5 {
+    margin: 0;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.control {
+    width: 95%;
+    border: 1px solid #c58ef7;
+    margin-bottom: 15px;
+    padding: 7px 10px;
+    background: white;
+    font-size: 14px;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.boton1 {
+    width: 50%;
+    height: 40px;
+    background: #c58ef7;
+    border: none;
+    color: white;
+    margin-bottom: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 25%;
+}
+
+.boton1:hover{
+    background-color: #9647e0;
+    color:blanchedalmond;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.boton2 {
+    width: 50%;
+    height: 40px;
+    background: #c58ef7;
+    border: none;
+    color: white;
+    margin-bottom: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 25%;
+}
+
+.boton2:hover{
+    background-color: #9647e0;
+    color:blanchedalmond;
+    font-size: 18px;
+    text-transform: capitalize;
+}

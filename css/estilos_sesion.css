@@ -1,0 +1,145 @@
+.sesion {
+    width: 400px;
+    height: 340px;
+    background: #ddaae7;
+    margin: auto;
+    margin-top: 8%;
+    box-shadow: 7px 13px 37px #000000;
+    padding: 20px 30px;
+    border-top: 4px solid #ddaae7;  
+    color: #ffffff;
+    margin-bottom: 70px;
+}
+  
+
+.sesion h5 {
+    margin: 0;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid;
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+  
+.control {
+    width: 95%;
+    border: 1px solid #c58ef7;
+    margin-bottom: 15px;
+    padding: 11px 10px;
+    background: white;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+  
+.boton {
+    width: 100%;
+    height: 40px;
+    background: #c58ef7;
+    border: none;
+    color: white;
+    margin-bottom: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+}
+
+.boton:hover{
+    background-color: #9647e0;
+    color:blanchedalmond;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+  
+.sesion p{
+    height: 40px;
+    text-align: center;
+    border-bottom: 1px solid;
+}
+  
+.sesion a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.sesion p{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#condiciones{
+    color: #000000;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+.respmenu a {
+    color: inherit;
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+    border-bottom: 2px solid #456789;
+    max-width: 200px;
+    background: #c4e8ee;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+
+
+  .respmenu input[type="checkbox"], .respmenu .fa-bars, .respmenu .fa-times {
+    position: absolute;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    right: 0;
+    top: 0;
+    width: 48px;
+    height: 48px;
+  }
+  
+  .respmenu .fa-bars, .respmenu .fa-times {
+    font-size: 48px;
+    pointer-events: none;
+  }
+  
+  .respmenu input[type="checkbox"] {
+    opacity: 0;
+  }
+  
+  .respmenu {
+    color: black;
+    position: relative;
+    background: #c4e8ee;
+    min-height: 48px;
+  }
+  
+  .respmenu nav {
+    display: none;
+  }
+  
+  .respmenu input:checked ~ nav {
+    display: block;
+  }
+  
+  .respmenu input:checked ~ .fa-bars {
+    display: none;
+  }
+  
+  .respmenu input:not(:checked) ~ .fa-times {
+    display: none;
+  }

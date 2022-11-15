@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Fancy Print</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/estilosProductosAdmin.css">
+    <Meta name="viewport" content="width = dispositivo de ancho, inicial escala = 1.0">
+</head>
+
+<body>
+    <header>
+        <img id="log" src="../imgs/fancy.png" alt="">
+        <h1 id="titulo1"> <span id="rosa">Fancy</span> <span id="azul">Print</span> </h1>
+        <p id="frase">“De una imagen a tus manos.”</p>
+
+        <nav>
+            <a href="../index.html">Inicio</a>
+            <a href="../html/quienessomos.html">¿Quiénes somos?</a>
+            <a href="../html/antecedentes.html"> Antecedentes</a>
+            <a href="../html/mision.html">Misión</a>
+            <a href="../html/vision.html">Visión</a>
+            <a href="../html/productos.html">Productos</a>
+            <a href="../html/sevicios.html">Servicios</a>
+            <a href="../html/contacto.html">Contacto</a>
+            <a href="../html/iniciar_sesion.html" id="IS">Inciar Sesión</a>
+        </nav>
+    </header>
+    <main>
+        <!-- sujerencias
+        1- que color de la pagina para el administrador sea de otro color
+        2- deveriamos arreglar el encabezado de la pagina
+        3- son solo sujerencias..-->
+        <h1 id="tituloAdmin">BIENVENIDO (ADMINISTRADOR)</h1>
+        <h3>Galería de productos pre-diceñados</h3>
+
+        <div id="cajaTabla">
+            <div id="agregar">
+                <a id="agregar1" href=" #"><img id="iconos" src="../imgs/agregar.png" alt="agregar">
+                    <h5>agregar</h5>
+                </a>
+                <a id="eliminar2" href="#"><img id="iconos" src="../imgs/eliminar.png" alt="iconos">
+                    <h5>eliminar</h5>
+                </a>
+                <a id="editar" href="#"><img id="iconos" src="../imgs/editar.png" alt="iconos">
+                    <h5>editar</h5>
+                </a>
+            </div>
+            <table id="tabla">
+                <!-- encabezado del selector del catalogo -->
+                <thead>
+                    <tr>
+                        <th colspan="2">Chica</th>
+                        <th colspan="2">Mediana</th>
+                        <th colspan="2">Grande</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- seccion 1 playeras -->
+                    <tr>
+                        <td><img src="../imgs/CatalogoPlateras/46740a78-5edf-4ea1-909e-c249ced8d3a8.jfif"
+                                alt="playeras Estanpados"></td>
+                        <td><img src="../imgs/CatalogoPlateras/Cactus Shirt _ Cacti Shirt _ Tumblr Shirt _ Succulent Shirt _ _ Etsy.jfif"
+                                alt="playeras Estanpados"></td>
+                        <td><img src="../imgs/CatalogoPlateras/Camera T-Shirt.jfif" alt="playeras Estanpados"></td>
+                        <td><img src="../imgs/CatalogoPlateras/Camiseta Spiderman.png" alt="playeras estampadas"></td>
+                        <td><img src="../imgs/CatalogoPlateras/Carta Formal Camiseta & Tanque Masculina.jfif"
+                                alt="playeras estampadas"></td>
+                        <td><img src="../imgs/CatalogoPlateras/Camisetas La Colmena - 2239-Reservoir Kame T-Shirt (Melonseta).jfif"
+                                alt="playeras estampadas"></td>
+                    </tr>
+                    <tr>
+                        <td><img src="../imgs/CatalogoPlateras/e51ca273-990d-4319-8ae6-6cd544e6e030.jfif"
+                                alt="playeras personalizadas"></td>
+                        <td><img src="../imgs/CatalogoPlateras/f1e9f42a-664c-405f-abc8-d11de2080a10.jfif"
+                                alt="playeras personalizadas"></td>
+                        <td><img src="../imgs/CatalogoPlateras/fa7c98f0-0962-4dd6-9482-eaae6f52ceb9.jfif"
+                                alt="playeras personalizadas"></td>
+                        <td><img src="../imgs/CatalogoPlateras/Ghostbuttsters.jfif" alt=""></td>
+                        <td><img src="../imgs/CatalogoPlateras/Playera Controlador de juego de jugador _ Zazzle_com.jfif"
+                                alt=""></td>
+                        <td><img src="../imgs/CatalogoPlateras/Playera Pacman Classic.jfif" alt=""></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div id="formularioAgregar">
+                <div id="colorFondo">   
+                    <h1>Añadir producto</h1>
+                    <form action="#">
+                        <p>nombre del producto</p>
+                        <input type="text" placeholder="coloca la informacion aqui"><br>
+                        <p>cantidad de piezas</p>
+                        <input type="number" placeholder="coloca la informacion aqui"><br>
+                        <p>imagen de referencia</p>
+                        <input type="file" name="" id="" placeholder="coloca la informacion aqui"><br>
+                        <p>descripcion del producto</p>
+                        <input type="text" placeholder="coloca la informacion aqui"> <br> <br>
+                        <input id="enviar" type="submit" value="añanadir">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
